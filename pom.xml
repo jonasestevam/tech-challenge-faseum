@@ -8,11 +8,11 @@
 		<version>3.1.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.jonasestevam.tech.challenge</groupId>
-	<artifactId>tech.challenge.faseum</artifactId>
+	<groupId>com.techchallenges</groupId>
+	<artifactId>faseUm</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tech.challenge.faseum</name>
-	<description>Tech Challenge - Fase Um - FIAP</description>
+	<name>faseUm</name>
+	<description>Tech Challenge/Fase Um - FIAP</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

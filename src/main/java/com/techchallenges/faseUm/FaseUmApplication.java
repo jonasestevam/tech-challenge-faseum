@@ -1,13 +1,13 @@
-package com.jonasestevam.tech.challenge.tech.challenge.faseum;
+package com.techchallenges.faseUm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class FaseUmApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(FaseUmApplication.class, args);
 	}
 
 }

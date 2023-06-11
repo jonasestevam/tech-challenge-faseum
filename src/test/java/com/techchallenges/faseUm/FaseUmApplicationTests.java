@@ -1,10 +1,10 @@
-package com.jonasestevam.tech.challenge.tech.challenge.faseum;
+package com.techchallenges.faseUm;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class FaseUmApplicationTests {
 
 	@Test
 	void contextLoads() {
