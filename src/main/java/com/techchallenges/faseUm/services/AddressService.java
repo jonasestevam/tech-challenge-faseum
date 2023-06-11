@@ -18,7 +18,7 @@ public class AddressService {
     AddressMapper addressMapper;
 
     public AddressDTO salvar(AddressDTO addressDTO) {
-        Address savedAddress = addressDAO.salvar(addressMapper.toEntity(addressDTO));
+        Address savedAddress = addressDAO.save(addressMapper.toEntity(addressDTO));
         return addressMapper.toDto(savedAddress);
     }
 

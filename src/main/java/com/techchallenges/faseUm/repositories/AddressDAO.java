@@ -1,19 +1,11 @@
 package com.techchallenges.faseUm.repositories;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
+import java.util.UUID;
 
-import com.techchallenges.faseUm.mappers.AddressMapper;
+import org.springframework.data.jpa.repository.JpaRepository;
+
 import com.techchallenges.faseUm.models.Address;
 
-@Repository
-public class AddressDAO {
-
-    @Autowired
-    AddressMapper addressMapper;
-
-    public Address salvar(Address address) {
-        return address;
-    }
+public interface AddressDAO extends JpaRepository<Address, UUID> {
 
 }
