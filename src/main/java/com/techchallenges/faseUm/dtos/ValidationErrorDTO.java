@@ -1,6 +1,6 @@
 package com.techchallenges.faseUm.dtos;
 
-import java.util.List;
+import java.util.Map;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,9 +8,9 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ValidationErrorDTO extends ErrorDTO {
-    private List<String> validationErrors;
+    private Map<String, String> validationErrors;
 
-    public ValidationErrorDTO(List<String> validationErrors, String errorMessage, String exception) {
+    public ValidationErrorDTO(Map<String, String> validationErrors, String errorMessage, String exception) {
         super(errorMessage, exception);
         this.validationErrors = validationErrors;
     }

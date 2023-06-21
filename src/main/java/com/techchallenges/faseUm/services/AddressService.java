@@ -15,7 +15,7 @@ import com.techchallenges.faseUm.repositories.AddressDAO;
 import jakarta.persistence.NoResultException;
 
 @Service
-public class AddressService {
+public class AddressService implements BaseService<AddressDTO> {
 
     @Autowired
     AddressDAO addressDAO;
@@ -50,7 +50,7 @@ public class AddressService {
 
     private void checkIfExists(UUID id) {
         if (!addressDAO.existsById(id)) {
-            throw new NoResultException("Address Not Found");
+            throw new NoResultException("This address was not found");
         }
     }
 
