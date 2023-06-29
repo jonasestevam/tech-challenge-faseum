@@ -27,13 +27,13 @@ public class Person {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @Column(name = "PERSON_NAME")
+    @Column(name = "NAME")
     private String name;
 
-    @Column(name = "PERSON_GENDER")
+    @Column(name = "GENDER")
     private String gender;
 
-    @Column(name = "PERSON_BIRTH_DATE")
+    @Column(name = "BIRTH_DATE")
     private LocalDate birthDate;
 
     @ManyToOne
