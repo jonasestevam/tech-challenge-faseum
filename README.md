@@ -1,6 +1,32 @@
 
 <h1 id="openapi-definition">Documentação do projeto criado na primeira fase do curso de pós-graduação em Arquitetura e Desenvolvimento Java da FIAP.</h1>
 
+# Relatório Técnico - API REST em Spring Boot
+
+## Tecnologias e Ferramentas Utilizadas
+A seguir estão as principais tecnologias e ferramentas utilizadas no desenvolvimento da API REST:
+
+1. **Spring Boot**: Um framework Java que simplifica o desenvolvimento de aplicativos Java, fornecendo configurações e dependências por padrão, facilitando a criação de uma API REST robusta e escalável.
+
+2. **Java**: A linguagem de programação principal utilizada para desenvolver a API REST.
+
+3. **Spring Framework**: Fornece um conjunto abrangente de recursos para desenvolvimento de aplicativos empresariais, incluindo gerenciamento de dependências, injeção de dependência, segurança, controle transacional e muito mais.
+
+4. **Spring Data JPA**: Uma biblioteca do Spring que facilita a integração de aplicativos Java com bancos de dados relacionais usando a especificação JPA (Java Persistence API).
+
+5. **Hibernate**: Um framework de mapeamento objeto-relacional (ORM) utilizado em conjunto com o Spring Data JPA para facilitar o acesso e manipulação dos dados no banco de dados.
+
+6. **H2Database**: Um sistema de gerenciamento de banco de dados relacional em memória utilizado como banco de dados principal para a API REST.
+
+7. **Postman**: Uma ferramenta de desenvolvimento de API que facilita o teste e a documentação das chamadas de API.
+
+8. **Lombok**: O Project Lombok é uma biblioteca para a linguagem de programação Java que oferece recursos para reduzir a verbosidade do código, simplificar a criação de classes e aumentar a produtividade do desenvolvedor.
+
+9. **Springdoc**: O Springdoc é uma biblioteca que facilita a geração automática de documentação no padrão OpenAPI para APIs RESTful desenvolvidas com o framework Spring Boot.
+
+
+## Documentação
+
 Base URLs:
 
 * <a href="http://localhost:8080/api">http://localhost:8080/api</a>
