@@ -8,7 +8,7 @@ A seguir estão as principais tecnologias e ferramentas utilizadas no desenvolvi
 
 1. **Spring Boot**: Um framework Java que simplifica o desenvolvimento de aplicativos Java, fornecendo configurações e dependências por padrão, facilitando a criação de uma API REST robusta e escalável.
 
-2. **Java**: A linguagem de programação principal utilizada para desenvolver a API REST.
+2. **Java 17**: A linguagem de programação principal utilizada para desenvolver a API REST.
 
 3. **Spring Framework**: Fornece um conjunto abrangente de recursos para desenvolvimento de aplicativos empresariais, incluindo gerenciamento de dependências, injeção de dependência, segurança, controle transacional e muito mais.
 
