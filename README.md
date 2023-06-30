@@ -5,7 +5,7 @@ Base URLs:
 
 * <a href="http://localhost:8080/api">http://localhost:8080/api</a>
 
-<h1 id="openapi-definition-person-controller">person-controller</h1>
+<h1 id="openapi-definition-person-controller">API de Gestão de Pessoas</h1>
 
 ## getAll
 
@@ -395,16 +395,16 @@ This operation does not require authentication
 
 | Status | Meaning                                                          | Description       | Schema                        |
 | ------ | ---------------------------------------------------------------- | ----------------- | ----------------------------- |
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          | Empty return      | [PersonDTO](#schemapersondto) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          | Empty return      | None                          |
 | 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Returns the error | [ErrorDTO](#schemaerrordto)   |
 
 <aside class="success">
 This operation does not require authentication
 </aside>
 
-<h1 id="openapi-definition-home-appliance-controller">home-appliance-controller</h1>
+<h1 id="openapi-definition-home-appliance-controller">API de Gestão de Eletrodométicos</h1>
 
-## getAll_1
+## getAll
 
 <a id="opIdgetAll_1"></a>
 
@@ -438,13 +438,13 @@ This operation does not require authentication
 | 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          | Returns all the home appliance | [HomeApplianceDTO](#schemahomeappliancedto) |
 | 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request                    | Inline                                      |
 
-<h3 id="getall_1-responseschema">Response Schema</h3>
+<h3 id="-responseschema">Response Schema</h3>
 
 <aside class="success">
 This operation does not require authentication
 </aside>
 
-## update_1
+## update
 
 <a id="opIdupdate_1"></a>
 
@@ -505,7 +505,7 @@ This operation does not require authentication
 This operation does not require authentication
 </aside>
 
-## save_1
+## save
 
 <a id="opIdsave_1"></a>
 
@@ -612,7 +612,7 @@ This operation does not require authentication
 This operation does not require authentication
 </aside>
 
-## delete_1
+## delete
 
 <a id="opIddelete_1"></a>
 
@@ -649,7 +649,7 @@ This operation does not require authentication
 
 | Status | Meaning                                                          | Description  | Schema                                      |
 | ------ | ---------------------------------------------------------------- | ------------ | ------------------------------------------- |
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          | Empty return | [HomeApplianceDTO](#schemahomeappliancedto) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          |  | None                                        |
 | 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request  | Inline                                      |
 
 <h3 id="delete_1-responseschema">Response Schema</h3>
@@ -658,9 +658,9 @@ This operation does not require authentication
 This operation does not require authentication
 </aside>
 
-<h1 id="openapi-definition-addres-controller">addres-controller</h1>
+<h1 id="openapi-definition-addres-controller">API de gestão de endereços</h1>
 
-## getAll_2
+## getAll
 
 <a id="opIdgetAll_2"></a>
 
@@ -685,7 +685,7 @@ This operation does not require authentication
 This operation does not require authentication
 </aside>
 
-## update_2
+## update
 
 <a id="opIdupdate_2"></a>
 
@@ -742,7 +742,7 @@ This operation does not require authentication
 This operation does not require authentication
 </aside>
 
-## save_2
+## save
 
 <a id="opIdsave_2"></a>
 
@@ -799,7 +799,7 @@ This operation does not require authentication
 This operation does not require authentication
 </aside>
 
-## getById_1
+## getById
 
 <a id="opIdgetById_1"></a>
 
@@ -843,7 +843,7 @@ This operation does not require authentication
 This operation does not require authentication
 </aside>
 
-## delete_2
+## delete
 
 <a id="opIddelete_2"></a>
 
@@ -865,7 +865,7 @@ This operation does not require authentication
 
 | Status | Meaning                                                          | Description  | Schema |
 | ------ | ---------------------------------------------------------------- | ------------ | ------ |
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          | Empty return | None   |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          |  | None   |
 | 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request  | Inline |
 
 <h3 id="delete_2-responseschema">Response Schema</h3>
