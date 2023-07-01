@@ -462,7 +462,7 @@ This operation does not require authentication
 | Status | Meaning                                                          | Description                    | Schema                                      |
 | ------ | ---------------------------------------------------------------- | ------------------------------ | ------------------------------------------- |
 | 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          | Returns all the home appliance | [HomeApplianceDTO](#schemahomeappliancedto) |
-| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request                    | Inline                                      |
+| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request                    |  [ErrorDTO](#schemaerrordto)                                        |
 
 <h3 id="-responseschema">Response Schema</h3>
 
@@ -523,7 +523,7 @@ This operation does not require authentication
 | Status | Meaning                                                          | Description                       | Schema                                      |
 | ------ | ---------------------------------------------------------------- | --------------------------------- | ------------------------------------------- |
 | 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          | Returns the update home appliance | [HomeApplianceDTO](#schemahomeappliancedto) |
-| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request                       | Inline                                      |
+| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request                       |  [ErrorDTO](#schemaerrordto)                                        |
 
 <h3 id="update_1-responseschema">Response Schema</h3>
 
@@ -584,7 +584,7 @@ This operation does not require authentication
 | Status | Meaning                                                          | Description                        | Schema                                      |
 | ------ | ---------------------------------------------------------------- | ---------------------------------- | ------------------------------------------- |
 | 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          | Returns the created home appliance | [HomeApplianceDTO](#schemahomeappliancedto) |
-| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request                        | Inline                                      |
+| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request                        |  [ErrorDTO](#schemaerrordto)                                        |
 
 <h3 id="save_1-responseschema">Response Schema</h3>
 
@@ -630,7 +630,7 @@ This operation does not require authentication
 | Status | Meaning                                                          | Description                | Schema                                      |
 | ------ | ---------------------------------------------------------------- | -------------------------- | ------------------------------------------- |
 | 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          | Returns the home appliance | [HomeApplianceDTO](#schemahomeappliancedto) |
-| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request                | Inline                                      |
+| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request                |  [ErrorDTO](#schemaerrordto)                                        |
 
 <h3 id="getbyid-responseschema">Response Schema</h3>
 
@@ -676,7 +676,7 @@ This operation does not require authentication
 | Status | Meaning                                                          | Description  | Schema                                      |
 | ------ | ---------------------------------------------------------------- | ------------ | ------------------------------------------- |
 | 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          |  | None                                        |
-| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request  | Inline                                      |
+| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request  |  [ErrorDTO](#schemaerrordto)                                        |
 
 <h3 id="delete_1-responseschema">Response Schema</h3>
 
@@ -703,7 +703,7 @@ This operation does not require authentication
 | Status | Meaning                                                          | Description               | Schema |
 | ------ | ---------------------------------------------------------------- | ------------------------- | ------ |
 | 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          | Returns all the addresses | None   |
-| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request               | Inline |
+| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request               |  [ErrorDTO](#schemaerrordto)   |
 
 <h3 id="getall_2-responseschema">Response Schema</h3>
 
@@ -760,7 +760,7 @@ This operation does not require authentication
 | Status | Meaning                                                          | Description                 | Schema                          |
 | ------ | ---------------------------------------------------------------- | --------------------------- | ------------------------------- |
 | 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          | Returns the updated address | [AddressDTO](#schemaaddressdto) |
-| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request                 | Inline                          |
+| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request                 |  [ErrorDTO](#schemaerrordto)                            |
 
 <h3 id="update_2-responseschema">Response Schema</h3>
 
@@ -817,7 +817,7 @@ This operation does not require authentication
 | Status | Meaning                                                          | Description                 | Schema                          |
 | ------ | ---------------------------------------------------------------- | --------------------------- | ------------------------------- |
 | 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)     | Returns the created address | [AddressDTO](#schemaaddressdto) |
-| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request                 | Inline                          |
+| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request                 |  [ErrorDTO](#schemaerrordto)                            |
 
 <h3 id="save_2-responseschema">Response Schema</h3>
 
@@ -861,7 +861,7 @@ This operation does not require authentication
 | Status | Meaning                                                          | Description         | Schema                          |
 | ------ | ---------------------------------------------------------------- | ------------------- | ------------------------------- |
 | 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          | Returns the address | [AddressDTO](#schemaaddressdto) |
-| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request         | Inline                          |
+| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request         |  [ErrorDTO](#schemaerrordto)                            |
 
 <h3 id="getbyid_1-responseschema">Response Schema</h3>
 
@@ -892,7 +892,7 @@ This operation does not require authentication
 | Status | Meaning                                                          | Description  | Schema |
 | ------ | ---------------------------------------------------------------- | ------------ | ------ |
 | 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)          |  | None   |
-| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request  | Inline |
+| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | Bad Request  |  [ErrorDTO](#schemaerrordto)   |
 
 <h3 id="delete_2-responseschema">Response Schema</h3>
 
